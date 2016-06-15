@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<meta charset="utf-8">
+	  	<title>Whatsapp</title>
+	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
+	  	<link rel="stylesheet"  href="css/main.css">
+	  	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+	  	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+	</head>
+	<body class="fond">
+		<header class="container">
+			<div class="row hea">
+				<div class="col-xs-hidden col-md-5 div">
+					<div class="row">
+						<div class="col-xs-9">
+							<img src="image/gian.jpg" class="img-responsive imag">
+						</div>
+						<div class="col-xs-3">
+							<i class="fa fa-comments-o fa-2x ico" aria-hidden="true">
+							</i>
+							<i class="fa fa-ellipsis-v fa-2x ico" aria-hidden="true">
+							</i>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-hidden col-md-7">
+					<div class="row">
+						<div class="col-xs-2">
+							<img src="image/logocodeacademy.png" class="img-responsive image-2">
+						</div>
+						<div class="col-xs-8">
+							<p class="chatActual"><strong>Laboratoria Perú</strong></p>
+							<p>AnaMaria,Aldo,Gian,Mariana,Papu,Tú</p>
+						</div>	
+						<div class="col-xs-2">
+							<i class="fa fa-paperclip fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-ellipsis-v fa-2x" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+			<section class="container">
+				<div class="row gran-cont">
+					<div class="col-xs-12 col-md-5 contacts" style="overflow: scroll; width:490px; height:450px;">
+						<div class="contactos">
+							<input type="text" name="search" id="buscar-cont" onkeyup="autocompletado()" class="form-control input-lg" placeholder="Busca o empieza un chat nuevo">
+							<div>
+		  						<ul id="result" class="resultados"></ul>
+							</div>
+						</div>
+						<div class="row contactos">
+							<div class="col-xs-4">
+								<img src="image/logocodeacademy.png" class="img-responsive image-2">
+							</div>
+							<p class="col-xs-6">Laboratoria Perú<br> No se pique</p>
+							<p class="col-xs-2">14:27</p>
+						</div>
+						<div class="row contactos">
+							<div class="col-xs-4">
+								<img src="image/raymi.jpg" class="img-responsive image-2">
+							</div>
+							<p class="col-xs-6">Raymi Saldomando<br> La clase va bien!</p>
+							<p class="col-xs-2">11:25</p>	
+						</div>
+						<div class="row contactos">
+							<div class="col-xs-4">
+								<img src="image/mariana.jpg" class="img-responsive image-2">
+							</div>
+							<p class="col-xs-6">Mariana Costa<br> El panel de speakers está buenazo</p>
+							<p class="col-xs-2">09:25</p>	
+						</div>
+						<div class="row contactos">
+							<div class="col-xs-4">
+								<img src="image/anamaria.jpg" class="img-responsive image-2">
+							</div>
+							<p class="col-xs-6">Ana Maria Martinez Franklin<br> Pues dale chamo!</p>
+							<p class="col-xs-2">Ayer</p>
+						</div>
+						<div class="row contactos">
+							<div class="col-xs-4">
+								<img src="image/rodulfo.jpg" class="img-responsive image-2">
+							</div>
+							<p class="col-xs-6">Rodulfo Prieto<br> ¿cómo van las chicas?</p>
+							<p class="col-xs-2">Martes</p>
+						</div>
+						<div class="row contactos">
+							<div class="col-xs-4">
+								<img src="image/andrea.jpg" class="img-responsive image-2">
+							</div>
+							<p class="col-xs-6">Andrea Lamas<br> Hoy me toca clase de canto, yee!</p>
+							<p class="col-xs-2">Lunes</p>
+						</div>
+						<div class="row contactos">
+							<div class="col-xs-4">
+								<img src="image/mariapaula.jpg" class="img-responsive image-2">
+							</div>
+							<p class="col-xs-6">Maria Paula Rivarola<br> Wuju! esto me encanta! en verdad!</p>
+							<p class="col-xs-2">13/01/2016</p>			
+						</div>
+						<div class="row contactos">
+							<div class="col-xs-4">
+								<img src="image/katy.jpg" class="img-responsive image-2">
+							</div>
+							<p class="col-xs-6">Katy Sanchez<br> Note preocupes, tengo el salón bajo control</p>
+							<p class="col-xs-2">11/01/2016</p>
+						</div>
+						<div class="row contactos">
+							<div class="col-xs-4">
+								<img src="image/aldo.jpg" class="img-responsive image-2">
+							</div>
+							<p class="col-xs-6">Aldo Alfaro<br> Vao a comer?</p>
+							<p class="col-xs-2">03/01/2016</p>
+						</div>
+					</div>
+					<div class="col-xs-hidden col-md-7" style="overflow: scroll; width:673px; height:450px;">
+						<div class="row fondo-chat">
+							<div class="col-xs-6">
+								<p class="bg-w"><span class="blue">Andrea Lamas</span><br> ¿porqué se lo habrá cortado?</p>
+								<p class="bg-w"><span class="yellow">Aldo Alfaro</span><br> Ya ya ya, hacía mucho calor que más</p>
+								<p class="bg-w"><span class="blue">Andrea Lamas</span><br> Está siguiendo los pasos de Juan Diego!</p>
+								<p class="bg-w"><span class="aqua">Maria Paula Rivarola</span><br> Nunca!!! Juan Diego es único</p>
+								<br>
+								<p class="bg-w"><span class="yellow">Aldo Alfaro</span><br> Dale dale!</p>
+							</div>
+							<div id="bandejaEntrada" class="col-xs-6">
+								<p class="me">Antes parecía mufasa jajajaja</p>
+								<p class="me">Ahora sí está decente</p>
+								<br>
+								<br>
+								<br>
+								<p class="me">jajajaja</p>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<p class="me">jajajaja<br> no se pique!!</p>
+							</div>
+						</div>
+						<div class="row msj">
+							<div class="col-xs-12">
+								<input id="messageInput" type="text" class="form-control input-default" placeholder="Escribir mensaje">
+								</input>
+								<input type="button" click="myFunction" class="boton" id="btn-agregar" value="Enviar">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Incluir todos tus scripts apartir de este punto -->
+
+    		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+    		<script src="js/main.js" type="text/javascript"></script>
+
+</body>
+</html>

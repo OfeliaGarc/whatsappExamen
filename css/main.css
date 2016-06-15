@@ -1,0 +1,104 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.hea {
+	margin-top: 2em; 
+	padding: 0.8em;
+	background-color: #e6e6e6;
+	border: 1px solid #888888;
+
+}
+
+.gran-cont {
+	background-color: #ffffff;
+	border: 1px solid #888888;
+}
+
+.contactos {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	padding-bottom: 0.6em;
+	border-bottom: 1px solid #888888;
+}
+.gran-cont .contactos:last-child {
+	border-bottom: 0;
+}
+
+
+.contacts {
+	border-right: 1px solid #888888;
+}
+
+.imag {
+	width: 14%;
+	border-radius: 50%;
+	display: inline;
+}
+
+.image-2 {
+	width: 40%;
+	border-radius: 65%;
+}
+
+.cont-img {
+	width: 285px;
+	height: 100px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.div {
+	border-right: 1px solid #888888;
+
+}
+
+.fondo-chat {
+	height: 100%;
+	background-image: url("../image/fondo.png");
+}
+ 
+ .me {
+ 	background-color: #66ff99;
+ 	padding: 0.4em;
+ }
+ 
+ .bg-w {
+ 	background-color: #ffffff;
+ 	padding: 0.6em;
+ }
+
+.blue {
+  	color: #0099ff;
+}
+
+.yellow {
+	color: #cca300;
+}
+
+.aqua {
+	color: #00ff99;
+}
+ 
+.resultados {
+	margin-top: 1em;
+}
+
+.resultados li {
+	list-style-type: none;
+}
+
+.msj {
+	position: relative;
+}
+
+.fond {
+	background-image: url("../image/gran-fondo.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 45%;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/;
